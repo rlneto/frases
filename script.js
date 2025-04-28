@@ -1,6 +1,6 @@
 let dica = "A dica irá aparecer aqui.";
 
-const API = ProcessingInstruction.env.URL;
+const API = ProcessingInstruction.env.API;
 
 async function buscarDica() {
 	try {
