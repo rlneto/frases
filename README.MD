@@ -2,8 +2,9 @@
 
 ## Descrição
 
-Frases para o dia.
+Dicas para devs.
+Uma por vez.
 
 ## Detalhes
 
-Recupera frases de um endpoint de CMS.
+Recupera frases de um endpoint.
