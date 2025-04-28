@@ -1,8 +1,10 @@
 let dica = "A dica irá aparecer aqui.";
 
+const API = ProcessingInstruction.env.URL;
+
 async function buscarDica() {
 	try {
-		const response = await fetch("https://api-frases-dev.vercel.app/dica");
+		const response = await fetch(API);
 
 		if (!response.ok) {
 			throw new Error("Erro na requisição");
